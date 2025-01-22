@@ -14,19 +14,15 @@ class Child extends Mother {
 }
 
 
-class Application {
-    public void run() {
-        
-        Mother m = new Mother();
-        m.show(); 
-        Child ch = new Child();
-        ch.show(); 
-    }
-}
 
 public class Main {
     public static void main(String[] args) {
-        Application app = new Application();
-        app.run();
+       // Application app = new Application();
+       // app.run();
+        Mother m=new Mother();
+        m.show();
+        Child ch =new Child();
+        ch.show();
+
     }
 }
