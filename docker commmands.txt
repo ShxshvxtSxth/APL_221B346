@@ -1,0 +1,11 @@
+docker pull hello-world
+docker run hello-world
+docker run it ubuntu
+
+
+creating network
+docker network ls
+docker network create morgo-network
+docker run-d-p 27017:27017--name morgo--network
+--network morgo network -6 ME_CONFIG_MONGODB
+-ADMIN UDERNAME=admin -e ME_CONFIG_MONGODB_URL="mongodb//admin@mongo:27017"morgo-expres
